@@ -1,12 +1,16 @@
 import "./ega.css";
 
+import check from "../../../images/u_presentation-check.png"
+import circle from '../../../images/u_check-circle.png'
+import bonus from "../../../images/1614574146_2-p-podarok-na-belom-fone-2 1.png"
+
 function Ega() {
   return (
     <div className="ega">
       <div className="ega-container">
         <div className="ega-haqida"> 
           <div className="ega-logo">
-            <img src="../../../images/u_presentation-check.png" />
+            <img src={check} />
             <div className="line"> 
               <hr />
             </div>
@@ -17,27 +21,27 @@ function Ega() {
 
         <div className="ega-bolasiz">
           <div className="ega-card">
-            <img src="../../../images/u_check-circle.png" alt="" />
+            <img src={circle} alt="" />
             <p>Grafik dizayner bo’lish uchun nimalarni bilish kerak</p>
           </div>
           <div className="ega-card">
-            <img src="../../../images/u_check-circle.png" alt="" />
+            <img src={circle} alt="" /> 
             <p>Fotoshopdagi boshlang’ich barcha elementlarni qo’llash</p>
           </div>
           <div className="ega-card">
-            <img src="../../../images/u_check-circle.png" alt="" />
+            <img src={circle} alt="" />
             <p>Rasmlarni PNG holatga o’tkazish (Orqa fonni kesish)</p>
           </div>
         </div>
 
         <div className="ega-bolasiz">
           <div className="ega-card bonus">
-            <img src="../../../images/u_check-circle.png" alt="" />
+            <img src={circle} alt="" />
               <p>Bonus</p>
-            <img src="../../../images/1614574146_2-p-podarok-na-belom-fone-2 1.png" alt=""/>
+              <img src={bonus} alt=""/>
           </div>
           <div className="ega-card">
-            <img src="../../../images/u_check-circle.png" alt="" />
+            <img src={circle} alt="" />
             <p>O’zingizni go’yoki Dubayda turgandek qilib dizayn qilish</p>
           </div>
           <div className="ega-card">

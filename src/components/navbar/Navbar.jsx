@@ -1,5 +1,8 @@
 import "./navbar.css";
 
+import logo from "../../../images/logo.png"
+import fi from "../../../images/fi.png"
+
 function Navbar() {
   return (
     <div>
@@ -7,7 +10,7 @@ function Navbar() {
         <div className="nav-container">
           <div className="logo">
             <a href="/">
-              <img src="../../../images/logo.png" />
+              <img src={logo} />
             </a>
           </div>
 
@@ -17,7 +20,7 @@ function Navbar() {
               <br />
               <span>+9989 99 821 33 91</span>
             </p>
-            <img src="./images/fi.png" />
+            <img src={fi} />
           </div>
         </div>
       </nav>

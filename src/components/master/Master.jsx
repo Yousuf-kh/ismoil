@@ -1,5 +1,7 @@
 import "./master.css";
 
+import pocket from "../../../images/pocket.png"
+
 function Master() {
   return (
     <div>
@@ -8,15 +10,15 @@ function Master() {
           <div className="darslar">
             <div className="dars-title">3 kunlik Master-Klassda siz:</div>
             <div className="soha">
-              <img src="../../../images/pocket.png" />
+              <img src={pocket} />
               <p>Grafik dizayn qanday sohaligini tushunib olasiz;</p>
             </div>
             <div className="soha">
-              <img src="../../../images/pocket.png" />
+              <img src={pocket} />
               <p>Fotoshopda ilk ishlaringizni qila olasiz;</p>
             </div>
             <div className="soha">
-              <img src="../../../images/pocket.png" />
+              <img src={pocket} />
               <p>
                 Grafik dizayn orqali daromad qilish yo’llarini o’rganib olasiz
               </p>
