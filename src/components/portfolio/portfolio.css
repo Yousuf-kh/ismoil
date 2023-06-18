@@ -1,0 +1,44 @@
+.portfolio {
+  width: 100%;
+}
+
+.prt {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.prt img {
+  width: 307px;
+  height: 308px;
+}
+
+.prt2 {
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.prt2 img {
+  width: 307px;
+  height: 308px;
+}
+
+@media(max-width:758px){
+  
+.prt img {
+  width: 153px;
+  height: 152px;
+}
+
+.prt2 {
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.prt2 img {
+  width: 153px;
+  height: 152px;
+}
+}

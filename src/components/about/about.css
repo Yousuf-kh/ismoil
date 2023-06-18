@@ -1,0 +1,92 @@
+.about {
+  width: 100%;
+  background: rgb(14, 14, 24);
+  background: radial-gradient(
+    circle,
+    rgba(14, 14, 24, 1) 83%,
+    rgba(51, 0, 0, 1) 100%
+  );
+  padding: 20px 0px;
+}
+
+.about-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.haqida-logo {
+  display: flex;
+  align-items: center;
+}
+
+.line {
+  width: 50%;
+  margin-left: 10px;
+}
+
+.haqida h1 {
+  color: #fff;
+  font-size: 40px;
+}
+
+.haqida h2 {
+  font-weight: 700;
+  color: #fff;
+  font-size: 40px;
+}
+
+.about-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.about-card {
+  background: #fff;
+  padding: 40px 20px;
+  width: 30%;
+  height: 110px;
+  border-radius: 5px;
+  color: #3f4266; 
+  font-size: 18px;
+  position: relative;
+  align-items: center;
+}
+
+.about-card img {
+  padding: 15px;
+  background: #fff;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  position: absolute;
+  top: -25px;
+  right: 10px;
+  box-shadow: 1px 9px 12px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media(max-width:1070px){
+  .haqida h1 {
+    color: #fff;
+    font-size: 30px;
+  }
+
+  .haqida h2 {
+    color: #fff;
+    font-size: 30px;
+  }
+
+  .about-container {
+    width: 90%;
+  }
+
+  .about-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .about-card {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,135 @@
+.ega {
+  background: #05050d;
+  padding: 20px 0px;
+}
+
+.ega-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.ega-logo {
+  display: flex;
+  align-items: center;
+}
+
+.line {
+  width: 50%;
+  margin-left: 10px;
+}
+
+.ega-haqida h1 {
+  color: #fff;
+  font-size: 40px;
+}
+
+.ega-haqida h2 {
+  font-weight: 700;
+  color: #fff;
+  font-size: 40px;
+}
+
+.ega-bolasiz {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.ega-card {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
+  border-left: 1px solid #fff;
+  width: 30%;
+}
+
+.ega-card p {
+  margin-left: 10px;
+}
+
+.ega-narx h3 {
+  font-size: 24px;
+  color: #63cdf6;
+}
+
+.ega-narx s {
+  color: #fff;
+}
+
+.ega-narx a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  background: #63cdf6;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.narx {
+  text-align: center;
+}
+
+.ish-logo {
+  text-align: center;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.ish-logo img {
+  margin-bottom: 10px;
+}
+
+.ish-title {
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.ish-title h2 {
+  font-size: 40px;
+}
+
+.bajarilgan-ish {
+  margin-top: 40px;
+}
+
+.bonus {
+  border-left: 1px solid #fff;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media(max-width:1070px){
+  .ega-haqida h1 {
+    font-size: 30px;
+  }
+  
+  .ega-haqida h2 {
+    font-size: 30px;
+  }
+
+
+  .ish-title h2 {
+    font-size: 30px;
+  }
+}
+
+@media(max-width:810px){
+  .ega-card {
+    width: 80%;
+  }
+
+  .ega-bolasiz {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+}

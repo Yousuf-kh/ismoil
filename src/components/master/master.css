@@ -1,0 +1,101 @@
+.master-wrapper {
+  background: #0e0e18;
+}
+
+.master-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dars-title {
+  color: #63cdf6;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* .darslar {
+  position: relative;
+  bottom: 40px;
+} */
+
+.soha {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 10px; 
+}
+
+.soha p {
+  margin-left: 10px;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.narx h3 {
+  font-size: 24px;
+  color: #63cdf6;
+}
+
+.narx s {
+  color: #fff;
+}
+
+.narx a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  background: #63cdf6;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.narx {
+  text-align: center;
+}
+
+
+@media(max-width:1070px){
+  .master-container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+  }
+
+  .narx {
+    margin-top: 20px;
+  }
+
+  .master-wrapper {
+    padding: 10px 0px;
+  }
+
+  .soha {
+    margin-top: 20px;
+  }
+
+  .soha p {
+    font-size: 18px;
+  }
+  
+}
+
+@media (max-width: 1070px){
+  .ega-haqida h1 {
+    font-size: 25px;
+  }
+
+  .ega-haqida h2 {
+    font-size: 25px;
+  }
+}
