@@ -5,19 +5,19 @@ function Footer() {
     <div className="footer">
       <div className="footer-container">
         <div className="logo">
-          <img src="./images/logo.png" alt="" />
+          <img src="../../../images/logo.png" alt="" />
         </div>
 
         <div className="qism-2">
           <div className="sci">
             <a href="https://instagram.com/ismoil_mahmudjonov?igshid=MzRlODBiNWFlZA==" target="_blank">
-              <img src="./images/insta.png" alt="" />
+              <img src="../../../images/insta.png" alt="" />
             </a>
             <a href="https://t.me/ismoil_mahmudjonov" target="_blank">
-              <img src="./images/telegram.png" alt="" />
+              <img src="../../../images/telegram.png" alt="" />
             </a>
             <a href="https://youtube.com/@ismoilmahmudjonov6144" target="_blank">
-              <img src="./images/youtube.png" alt="" />
+              <img src="../../../images/youtube.png" alt="" />
             </a>
           </div>
 
@@ -27,7 +27,7 @@ function Footer() {
               <br />
               <span>+9989 99 821 33 91</span>
             </p>
-            <img src="./images/fi.png" />
+            <img src="../../../images/fi.png" />
           </div>
         </div>
       </div>

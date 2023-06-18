@@ -6,7 +6,7 @@ function Ega() {
       <div className="ega-container">
         <div className="ega-haqida"> 
           <div className="ega-logo">
-            <img src="./images/u_presentation-check.png" />
+            <img src="../../../images/u_presentation-check.png" />
             <div className="line"> 
               <hr />
             </div>
@@ -17,27 +17,27 @@ function Ega() {
 
         <div className="ega-bolasiz">
           <div className="ega-card">
-            <img src="./images/u_check-circle.png" alt="" />
+            <img src="../../../images/u_check-circle.png" alt="" />
             <p>Grafik dizayner bo’lish uchun nimalarni bilish kerak</p>
           </div>
           <div className="ega-card">
-            <img src="./images/u_check-circle.png" alt="" />
+            <img src="../../../images/u_check-circle.png" alt="" />
             <p>Fotoshopdagi boshlang’ich barcha elementlarni qo’llash</p>
           </div>
           <div className="ega-card">
-            <img src="./images/u_check-circle.png" alt="" />
+            <img src="../../../images/u_check-circle.png" alt="" />
             <p>Rasmlarni PNG holatga o’tkazish (Orqa fonni kesish)</p>
           </div>
         </div>
 
         <div className="ega-bolasiz">
           <div className="ega-card bonus">
-            <img src="./images/u_check-circle.png" alt="" />
+            <img src="../../../images/u_check-circle.png" alt="" />
               <p>Bonus</p>
-            <img src="./images/1614574146_2-p-podarok-na-belom-fone-2 1.png" alt=""/>
+            <img src="../../../images/1614574146_2-p-podarok-na-belom-fone-2 1.png" alt=""/>
           </div>
           <div className="ega-card">
-            <img src="./images/u_check-circle.png" alt="" />
+            <img src="../../../images/u_check-circle.png" alt="" />
             <p>O’zingizni go’yoki Dubayda turgandek qilib dizayn qilish</p>
           </div>
           <div className="ega-card">
@@ -52,7 +52,7 @@ function Ega() {
 
         <div className="bajarilgan-ish">
           <div className="ish-logo">
-            <img src="./images/u_palette.png" alt="" />
+            <img src="../../../images/u_palette.png" alt="" />
             <hr />
           </div>
           <div className="ish-title">

@@ -9,7 +9,7 @@ function Main() {
             <p className="kunlar">20-21-22-IYUN</p>
             <div className="online">
               <p>
-                20:00 <img src="./images/fi_clock.png" />
+                20:00 <img src="../../../images/fi_clock.png" />
               </p>
               <button>ONLINE</button>
             </div>
@@ -19,7 +19,7 @@ function Main() {
             <h1>Grafik Dizayn</h1>
             <h3>SOHASIGA KIRISH</h3>
             <div className="main-mini-text">
-              <img src="./images/vector.png" />
+              <img src="../../../images/vector.png" />
               <div className="main-mini-text-p">
                 <p>Ismoil Mahmudjonov</p>
                 <p>
